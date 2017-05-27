@@ -2,4 +2,4 @@
 
 Programme générant le triangle de Sierpiski.
 
-![Image of Yaktocat](./Triangle-de-Sierpiski/tri.png)
+![Image of Yaktocat](https://raw.githubusercontent.com/EloD10/Triangle-de-Sierpiski/master/tri.png)
