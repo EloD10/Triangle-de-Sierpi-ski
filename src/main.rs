@@ -2,7 +2,7 @@ extern crate image; //Une librairie de traitement d'image
 extern crate rand;
 
 use rand::Rng;
-use std::fs::File;
+use std::fs::File; // Pour enregistrer notre image
 
 //Initialise nos points qio son servir à dessiner notre tringle
 pub struct Point {    
@@ -23,7 +23,7 @@ pub fn main() {
         }
     });
 
-    let mut cnt: u32 = 1_000_000; /* Cette variable est le counter du nombre de points sur l'image, ce la nous permettre */
+    let mut cnt: u32 = 1_000_000; /* Cette variable est le counter du nombre de points sur l'image */
 
     let pts: [Point; 3] = [  /* Tabelau de type Point avec 3 index : dessine les point par rapport au à la largeur  et la hauteur de l'image défini comme constantes*/
         Point {x: WIDTH / 2, y: 0}, // Point en haut et au milieu du rectangle
