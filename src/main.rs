@@ -31,8 +31,8 @@ pub fn main() {
         Point {x: WIDTH, y: HEIGHT}, // Point en bas à droite
     ];
     
-    let mut p = Point { x: rand::thread_rng().gen_range(0, WIDTH),
-                        y: rand::thread_rng().gen_range(0, HEIGHT),
+    let mut p = Point { x: rand::thread_rng().gen_range(0, WIDTH), //génére une valeur aléatoire entre 0 et la valeur de la variable WIDTH
+                        y: rand::thread_rng().gen_range(0, HEIGHT), //génére une valeur aléatoire entre 0 et la valeur dela variable HEIGHT
     };
 
     let pixel = img[(0, 0)];
