@@ -1,4 +1,4 @@
-extern crate image; //Une librairie de traitement d'image
+extern crate image; //Une librairie de traitement d'image: https://crates.io/crates/image
 extern crate rand;
 
 use rand::Rng;
